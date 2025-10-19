@@ -1,0 +1,10 @@
+{
+    "author": ["OneMightyArc"],
+    "name": "NameChecker",
+    "short": "Alerts on non-standard usernames/nicknames on join.",
+    "description": "Notifies a configured channel when a new member joins with a username or nickname containing characters not typically found on a standard English American keyboard. Helps enforce server naming rules.",
+    "tags": ["moderation", "utility", "name", "username", "nickname", "join", "filter"],
+    "requirements": [],
+    "min_bot_version": "3.5.0",
+    "end_user_data_statement": "This cog stores guild-specific channel IDs for alert notifications. It checks usernames and nicknames against a predefined set of allowed characters but does not store the names themselves beyond what is included in a temporary alert message."
+}
